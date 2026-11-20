@@ -1,0 +1,10 @@
+n,r,m
+"(:Disease {name: Rice Blast, source: IRRI_Foliar_Fungal_Diseases.pdf})",[:AFFECTS],(:Rice {name: Rice})
+"(:Disease {name: Rice Blast, source: IRRI_Foliar_Fungal_Diseases.pdf})","[:HAS_SYMPTOM {source: IRRI_Foliar_Fungal_Diseases.pdf, chunk_id: 171}]",(:Symptom {name: Elliptical or spindle-shaped lesions})
+"(:Disease {name: Rice Blast, source: IRRI_Foliar_Fungal_Diseases.pdf})","[:HAS_SYMPTOM {source: IRRI_Foliar_Fungal_Diseases.pdf, chunk_id: 171}]",(:Symptom {name: Grayish or whitish center})
+"(:Disease {name: Rice Blast, source: IRRI_Foliar_Fungal_Diseases.pdf})","[:HAS_SYMPTOM {source: IRRI_Foliar_Fungal_Diseases.pdf, chunk_id: 171}]",(:Symptom {name: Brown or reddish-brown margin})
+(:Pathogen {name: Magnaporthe oryzae}),"[:CAUSES {source: IRRI_Foliar_Fungal_Diseases.pdf, chunk_id: 205}]","(:Disease {name: Rice Blast, source: IRRI_Foliar_Fungal_Diseases.pdf})"
+"(:Disease {name: Brown Spot, source: IRRI_Foliar_Fungal_Diseases.pdf})","[:HAS_SYMPTOM {source: IRRI_Foliar_Fungal_Diseases.pdf, chunk_id: 10}]",(:Symptom {name: Oval necrotic lesions})
+"(:Disease {name: Brown Spot, source: IRRI_Foliar_Fungal_Diseases.pdf})","[:HAS_SYMPTOM {source: IRRI_Foliar_Fungal_Diseases.pdf, chunk_id: 10}]",(:Symptom {name: Chlorotic halos})
+"(:Disease {name: Brown Spot, source: IRRI_Foliar_Fungal_Diseases.pdf})","[:HAS_SYMPTOM {source: IRRI_Foliar_Fungal_Diseases.pdf, chunk_id: 10}]",(:Symptom {name: Brown or grayish-white spots})
+(:Pathogen {name: Bipolaris oryzae}),"[:CAUSES {source: IRRI_Foliar_Fungal_Diseases.pdf, chunk_id: 2}]","(:Disease {name: Brown Spot, source: IRRI_Foliar_Fungal_Diseases.pdf})"
